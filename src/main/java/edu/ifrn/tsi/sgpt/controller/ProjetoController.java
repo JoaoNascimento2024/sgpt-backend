@@ -41,7 +41,7 @@ public class ProjetoController {
     }
 
     @GetMapping("/{id}")   
-    public ResponseEntity<Projeto> detalharProjeto(@PathVariable Long id){
+    public ResponseEntity<Projeto> detalharProjeto(@PathVariable("id") Long id){
         var projeto = projetoRepository.getReferenceById(id);
         return ResponseEntity.ok(projeto);
     }
