@@ -23,9 +23,8 @@ import lombok.Setter;
 public class Projeto {
     
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    @SequenceGenerator(name = "projeto_seq", sequenceName = "projeto_seq", 
-    allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "projeto_seq_generator")
+    @SequenceGenerator(name = "projeto_seq_generator", sequenceName = "projeto_SEQ", allocationSize = 1)
     private Long id;
     private String nome;
 }
