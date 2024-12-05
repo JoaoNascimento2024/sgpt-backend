@@ -1,0 +1,13 @@
+2024-12-02 20:16:52 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 31232 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-02 20:16:52 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-02 20:16:52 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-02 20:16:59 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-02 20:17:01 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-02 20:17:03 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 11.579 seconds (process running for 12.661)
+2024-12-02 20:17:32 [http-nio-8080-exec-1] INFO  e.i.tsi.sgpt.service.ProjetoService - Cadastrando projeto: edu.ifrn.tsi.sgpt.domain.projeto.Projeto@43
+2024-12-02 20:18:42 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 31232 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-02 20:18:42 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-02 20:18:42 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-02 20:18:43 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-02 20:18:44 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 2.808 seconds (process running for 113.69)
+2024-12-02 21:27:17 [HikariPool-2 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=52m12s524ms714µs800ns).

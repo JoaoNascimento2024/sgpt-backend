@@ -14,6 +14,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import edu.ifrn.tsi.sgpt.domain.projeto.Projeto;
 import edu.ifrn.tsi.sgpt.repository.ProjetoRepository;
+import edu.ifrn.tsi.sgpt.service.ProjetoService;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -31,7 +32,10 @@ public class ProjetoController {
     @Autowired
     private ProjetoRepository projetoRepository;
 
-    
+    @Autowired
+    private ProjetoService projetoService;
+
+   
     @PostMapping
     @Transactional
     public ResponseEntity<URI> cadastrarProjeto(@RequestBody @Valid Projeto projeto, 
@@ -39,6 +43,7 @@ public class ProjetoController {
         projetoRepository.save(projeto);
         URI uri = uriComponentsBuilder.path("/projetos/{id}").buildAndExpand(
             projeto.getId()).toUri();
+        projetoService.cadastrarProjeto(projeto);
         return ResponseEntity.created(uri).build();
     }
 

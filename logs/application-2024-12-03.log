@@ -1,0 +1,41 @@
+2024-12-03 07:51:35 [HikariPool-2 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8h6m55s749ms535탎500ns).
+2024-12-03 08:07:36 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 31232 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-03 08:07:36 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-03 08:07:36 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-03 08:07:46 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-03 08:07:50 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 13.417 seconds (process running for 42676.75)
+2024-12-03 08:07:55 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 31232 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-03 08:07:55 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-03 08:07:55 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-03 08:08:03 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-03 08:08:06 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 11.222 seconds (process running for 42693.095)
+2024-12-03 13:18:55 [HikariPool-4 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1h29m29s454ms81탎800ns).
+2024-12-03 13:37:52 [HikariPool-4 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m26s925ms152탎700ns).
+2024-12-03 13:58:40 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 29464 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-03 13:58:40 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-03 13:58:40 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-03 13:58:58 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-03 13:59:04 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-12-03 13:59:04 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-03 13:59:05 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-03 14:25:17 [HikariPool-4 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=13m54s400ms667탎900ns).
+2024-12-03 14:42:30 [HikariPool-4 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m12s746ms287탎900ns).
+2024-12-03 15:34:45 [HikariPool-4 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=52m23s990ms736탎500ns).
+2024-12-03 16:24:39 [HikariPool-4 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=24m23s770ms151탎900ns).
+2024-12-03 16:34:22 [HikariPool-4 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=9m52s343ms89탎800ns).
+2024-12-03 16:45:59 [HikariPool-4 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m37s532ms555탎700ns).
+2024-12-03 17:33:34 [HikariPool-4 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=23m4s567ms805탎700ns).
+2024-12-03 18:11:53 [HikariPool-4 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m57s21ms24탎400ns).

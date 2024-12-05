@@ -2,11 +2,13 @@ package edu.ifrn.tsi.sgpt.domain.projeto;
 
 import java.time.LocalDateTime;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EntityListeners;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -27,7 +29,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @EqualsAndHashCode(of = "id")
-@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
+@EntityListeners(AuditingEntityListener.class)
 public class Projeto {
     
     @Id
@@ -36,4 +38,13 @@ public class Projeto {
     private Long id;
     @NotBlank(message = "O nome do projeto é obrigatório")
     private String nome;
+
+    @CreatedDate
+    @Column(name = "data_criacao ", nullable = false, updatable = false)
+    private LocalDateTime dataCriacao;
+
+    @LastModifiedDate
+    @Column(name = "data_ultima_modificacao", nullable = false)
+    private LocalDateTime dataUltimaModificacao;
+
 }
