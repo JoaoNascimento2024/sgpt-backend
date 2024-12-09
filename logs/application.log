@@ -463,3 +463,304 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
 	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
+2024-12-09 13:42:11 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 26396 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 13:42:11 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 13:42:11 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 13:42:50 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 13:42:55 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-12-09 13:42:55 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-09 13:42:55 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-09 13:43:51 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 7204 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 13:43:51 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 13:43:51 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 13:44:17 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 13:44:22 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 32.765 seconds (process running for 35.518)
+2024-12-09 13:45:42 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 30400 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 13:45:42 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 13:45:42 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 13:46:15 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 13:46:22 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 40.93 seconds (process running for 44.605)
+2024-12-09 13:50:28 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 30400 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 13:50:28 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 13:50:28 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 13:50:35 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 13:50:39 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 11.046 seconds (process running for 301.977)
+2024-12-09 13:50:49 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 30400 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 13:50:49 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 13:50:49 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:03:06 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 22556 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:03:06 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:03:06 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:03:40 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:03:47 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 43.856 seconds (process running for 48.599)
+2024-12-09 14:04:36 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 22556 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:04:36 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:04:36 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:04:42 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:04:45 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 8.818 seconds (process running for 106.222)
+2024-12-09 14:04:47 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 22556 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:04:47 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:04:47 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:04:51 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:04:53 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 6.512 seconds (process running for 114.501)
+2024-12-09 14:08:34 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 22556 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:08:34 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:08:34 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:08:40 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions': Lookup method resolution failed
+2024-12-09 14:08:40 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at edu.ifrn.tsi.sgpt.SgptApplication.main(SgptApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [edu.ifrn.tsi.sgpt.infra.TratarExceptions] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@10bc7bbe]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ResourceNotFoundException
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ResourceNotFoundException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+2024-12-09 14:08:42 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 22556 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:08:42 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:08:42 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:08:49 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions': Lookup method resolution failed
+2024-12-09 14:08:50 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at edu.ifrn.tsi.sgpt.SgptApplication.main(SgptApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [edu.ifrn.tsi.sgpt.infra.TratarExceptions] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@14f207ab]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ResourceNotFoundException
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ResourceNotFoundException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+2024-12-09 14:08:54 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 22556 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:08:54 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:08:54 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:08:58 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions': Lookup method resolution failed
+2024-12-09 14:08:58 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at edu.ifrn.tsi.sgpt.SgptApplication.main(SgptApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [edu.ifrn.tsi.sgpt.infra.TratarExceptions] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7d84caf9]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ResourceNotFoundException
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ResourceNotFoundException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+2024-12-09 14:17:34 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:17:34 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:17:34 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:18:15 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:18:24 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 53.274 seconds (process running for 59.743)
+2024-12-09 14:20:10 [http-nio-8080-exec-7] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-09 14:20:50 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Unable to find edu.ifrn.tsi.sgpt.domain.projeto.Projeto with id 1000]
+2024-12-09 14:21:34 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:21:34 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:21:34 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:21:42 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:21:47 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 13.368 seconds (process running for 262.742)
+2024-12-09 14:21:51 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:21:51 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:21:51 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:22:01 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:22:05 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 14.818 seconds (process running for 280.619)
+2024-12-09 14:22:08 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:22:08 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:22:08 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:22:18 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:22:22 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 14.336 seconds (process running for 297.427)
+2024-12-09 14:22:24 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:22:24 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:22:24 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:22:31 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:22:33 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 9.231 seconds (process running for 309.146)
+2024-12-09 14:22:45 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:22:45 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:22:45 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:22:52 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions' defined in file [C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes\edu\ifrn\tsi\sgpt\infra\TratarExceptions.class]: Failed to instantiate [edu.ifrn.tsi.sgpt.infra.TratarExceptions]: Constructor threw exception
+2024-12-09 14:22:53 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions' defined in file [C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes\edu\ifrn\tsi\sgpt\infra\TratarExceptions.class]: Failed to instantiate [edu.ifrn.tsi.sgpt.infra.TratarExceptions]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at edu.ifrn.tsi.sgpt.SgptApplication.main(SgptApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [edu.ifrn.tsi.sgpt.infra.TratarExceptions]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:94)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1331)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Unexpected end of comment
+
+	at edu.ifrn.tsi.sgpt.infra.TratarExceptions.<init>(TratarExceptions.java:13)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:195)
+	... 24 common frames omitted
+2024-12-09 14:22:55 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:22:55 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:22:55 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:23:00 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:23:04 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 9.06 seconds (process running for 339.195)
+2024-12-09 14:23:26 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Unable to find edu.ifrn.tsi.sgpt.domain.projeto.Projeto with id 1000]
+2024-12-09 14:24:24 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:24:24 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:24:24 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:24:30 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:24:34 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 9.765 seconds (process running for 429.192)
+2024-12-09 14:25:13 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:25:13 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:25:13 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:39:01 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 13352 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:39:01 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:39:01 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:39:36 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:39:43 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 43.416 seconds (process running for 46.061)
+2024-12-09 14:40:04 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.net.URI> edu.ifrn.tsi.sgpt.controller.ProjetoController.cadastrarProjeto(edu.ifrn.tsi.sgpt.domain.projeto.Projeto,org.springframework.web.util.UriComponentsBuilder): [Field error in object 'projeto' on field 'nome': rejected value [ ]; codes [NotBlank.projeto.nome,NotBlank.nome,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [projeto.nome,nome]; arguments []; default message [nome]]; default message [O nome do projeto é obrigatório]] ]
