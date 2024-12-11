@@ -1,0 +1,766 @@
+2024-12-05 11:48:51 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 5812 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 11:48:51 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 11:48:51 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 11:49:09 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 11:49:14 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 22.848 seconds (process running for 24.81)
+2024-12-05 11:49:44 [http-nio-8080-exec-1] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-05 11:50:06 [http-nio-8080-exec-3] INFO  e.i.tsi.sgpt.service.ProjetoService - Cadastrando projeto: edu.ifrn.tsi.sgpt.domain.projeto.Projeto@44
+2024-12-05 11:50:11 [http-nio-8080-exec-7] INFO  e.i.tsi.sgpt.service.ProjetoService - Cadastrando projeto: edu.ifrn.tsi.sgpt.domain.projeto.Projeto@45
+2024-12-05 11:50:57 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 5812 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 11:50:57 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 11:50:57 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 11:51:00 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 11:51:02 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 5.092 seconds (process running for 133.115)
+2024-12-05 11:51:07 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 5812 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 11:51:07 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 11:51:07 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 11:51:12 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 11:51:15 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 8.183 seconds (process running for 146.1)
+2024-12-05 11:51:18 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 5812 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 11:51:18 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 11:51:18 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 11:51:22 [restartedMain] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [datai] in table [projeto]
+2024-12-05 11:51:22 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [datai] in table [projeto]
+2024-12-05 11:51:22 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [datai] in table [projeto]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at edu.ifrn.tsi.sgpt.SgptApplication.main(SgptApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [datai] in table [projeto]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 20 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [datai] in table [projeto]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:148)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:98)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 24 common frames omitted
+2024-12-05 11:51:24 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 5812 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 11:51:24 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 11:51:24 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 11:51:27 [restartedMain] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_inicio] in table [projeto]
+2024-12-05 11:51:27 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_inicio] in table [projeto]
+2024-12-05 11:51:27 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_inicio] in table [projeto]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at edu.ifrn.tsi.sgpt.SgptApplication.main(SgptApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_inicio] in table [projeto]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 20 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_inicio] in table [projeto]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:148)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:98)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 24 common frames omitted
+2024-12-05 11:51:36 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 5812 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 11:51:36 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 11:51:36 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 11:51:38 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 11:51:38 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 2.277 seconds (process running for 169.72)
+2024-12-05 11:52:51 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 5812 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 11:52:51 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 11:52:51 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 11:52:53 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 11:52:53 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 2.218 seconds (process running for 244.441)
+2024-12-05 11:53:42 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 19452 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 11:53:42 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 11:53:42 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 11:53:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 11:53:58 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 17.614 seconds (process running for 20.006)
+2024-12-05 11:54:29 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 19452 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 11:54:29 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 11:54:29 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 11:54:34 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 11:54:36 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 6.449 seconds (process running for 57.943)
+2024-12-05 11:54:38 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 19452 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 11:54:38 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 11:54:38 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 11:54:41 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 11:54:43 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 4.82 seconds (process running for 64.802)
+2024-12-05 11:54:45 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 19452 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 11:54:45 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 11:54:45 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 11:54:48 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 11:54:49 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 4.141 seconds (process running for 71.144)
+2024-12-05 12:00:21 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 19452 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 12:00:21 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 12:00:21 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 12:00:23 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 12:00:23 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 2.989 seconds (process running for 405.677)
+2024-12-05 12:00:36 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 19452 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 12:00:36 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 12:00:36 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 12:00:38 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 12:00:38 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 2.485 seconds (process running for 420.571)
+2024-12-05 12:00:48 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 19452 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 12:00:48 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 12:00:48 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 12:00:49 [restartedMain] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_ultima_modificacao] in table [projeto]
+2024-12-05 12:00:49 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_ultima_modificacao] in table [projeto]
+2024-12-05 12:00:49 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_ultima_modificacao] in table [projeto]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at edu.ifrn.tsi.sgpt.SgptApplication.main(SgptApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_ultima_modificacao] in table [projeto]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 20 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_ultima_modificacao] in table [projeto]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:148)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:98)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 24 common frames omitted
+2024-12-05 12:01:23 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 19452 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 12:01:23 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 12:01:23 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 12:01:25 [restartedMain] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_criacao] in table [projeto]
+2024-12-05 12:01:25 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_criacao] in table [projeto]
+2024-12-05 12:01:25 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_criacao] in table [projeto]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at edu.ifrn.tsi.sgpt.SgptApplication.main(SgptApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_criacao] in table [projeto]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 20 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_criacao] in table [projeto]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:148)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:98)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 24 common frames omitted
+2024-12-05 12:01:26 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 19452 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 12:01:26 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 12:01:26 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 12:01:27 [restartedMain] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_criacao] in table [projeto]
+2024-12-05 12:01:27 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_criacao] in table [projeto]
+2024-12-05 12:01:27 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_criacao] in table [projeto]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at edu.ifrn.tsi.sgpt.SgptApplication.main(SgptApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_criacao] in table [projeto]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 20 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [data_criacao] in table [projeto]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:148)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:98)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 24 common frames omitted
+2024-12-05 12:03:38 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 17512 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 12:03:38 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 12:03:38 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 12:03:51 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 12:03:54 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 16.811 seconds (process running for 18.149)
+2024-12-05 12:04:16 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 17512 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 12:04:16 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 12:04:16 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 12:04:22 [restartedMain] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.InstantiationException: Could not instantiate entity 'edu.ifrn.tsi.sgpt.domain.projeto.Projeto' due to: null
+2024-12-05 12:04:22 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.InstantiationException: Could not instantiate entity 'edu.ifrn.tsi.sgpt.domain.projeto.Projeto' due to: null
+2024-12-05 12:04:22 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.InstantiationException: Could not instantiate entity 'edu.ifrn.tsi.sgpt.domain.projeto.Projeto' due to: null
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at edu.ifrn.tsi.sgpt.SgptApplication.main(SgptApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.InstantiationException: Could not instantiate entity 'edu.ifrn.tsi.sgpt.domain.projeto.Projeto' due to: null
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 20 common frames omitted
+Caused by: org.hibernate.InstantiationException: Could not instantiate entity 'edu.ifrn.tsi.sgpt.domain.projeto.Projeto' due to: null
+	at org.hibernate.metamodel.internal.EntityInstantiatorPojoStandard.instantiate(EntityInstantiatorPojoStandard.java:100)
+	at org.hibernate.persister.entity.AbstractEntityPersister.lambda$prepareMappingModel$14(AbstractEntityPersister.java:5173)
+	at org.hibernate.internal.util.LazyValue.getValue(LazyValue.java:30)
+	at org.hibernate.engine.internal.UnsavedValueFactory.getUnsavedIdentifierValue(UnsavedValueFactory.java:45)
+	at org.hibernate.metamodel.mapping.internal.BasicEntityIdentifierMappingImpl.<init>(BasicEntityIdentifierMappingImpl.java:119)
+	at org.hibernate.persister.entity.AbstractEntityPersister.generateIdentifierMapping(AbstractEntityPersister.java:5539)
+	at org.hibernate.persister.entity.AbstractEntityPersister.lambda$prepareMappingModel$15(AbstractEntityPersister.java:5178)
+	at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.processSubPart(MappingModelCreationProcess.java:163)
+	at org.hibernate.persister.entity.AbstractEntityPersister.prepareMappingModel(AbstractEntityPersister.java:5176)
+	at org.hibernate.persister.entity.AbstractEntityPersister.prepareMappingModel(AbstractEntityPersister.java:5022)
+	at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.execute(MappingModelCreationProcess.java:84)
+	at org.hibernate.metamodel.mapping.internal.MappingModelCreationProcess.process(MappingModelCreationProcess.java:42)
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.finishInitialization(MappingMetamodelImpl.java:199)
+	at org.hibernate.internal.SessionFactoryImpl.initializeMappingModel(SessionFactoryImpl.java:371)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:300)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 24 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.hibernate.metamodel.internal.EntityInstantiatorPojoStandard.instantiate(EntityInstantiatorPojoStandard.java:97)
+	... 43 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token ")", [ expected
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "]" to complete ArrayAccess
+	Syntax error, insert ")" to complete Modifier
+	The attribute value is undefined for the annotation type Column
+	name cannot be resolved to a variable
+	Syntax error on token "nullable", delete this token
+
+	at edu.ifrn.tsi.sgpt.domain.projeto.Projeto.<init>(Projeto.java:25)
+	... 49 common frames omitted
+2024-12-05 12:04:23 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 17512 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 12:04:23 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 12:04:23 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 12:04:27 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 12:04:29 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 5.135 seconds (process running for 52.728)
+2024-12-05 12:04:33 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 17512 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 12:04:33 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 12:04:33 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 12:04:38 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 12:04:39 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 6.206 seconds (process running for 63.346)
+2024-12-05 12:04:53 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 17512 (D:\projetos-ifrn\sgpt-backend\target\classes started by joaon in D:\projetos-ifrn\sgpt-backend)
+2024-12-05 12:04:53 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-05 12:04:53 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-05 12:04:54 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-05 12:04:55 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 2.7 seconds (process running for 79.522)
+2024-12-05 12:05:25 [http-nio-8080-exec-5] INFO  e.i.tsi.sgpt.service.ProjetoService - Cadastrando projeto: edu.ifrn.tsi.sgpt.domain.projeto.Projeto@46
+2024-12-05 12:05:33 [http-nio-8080-exec-6] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-09 13:42:11 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 26396 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 13:42:11 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 13:42:11 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 13:42:50 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 13:42:55 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-12-09 13:42:55 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-09 13:42:55 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-09 13:43:51 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 7204 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 13:43:51 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 13:43:51 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 13:44:17 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 13:44:22 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 32.765 seconds (process running for 35.518)
+2024-12-09 13:45:42 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 30400 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 13:45:42 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 13:45:42 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 13:46:15 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 13:46:22 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 40.93 seconds (process running for 44.605)
+2024-12-09 13:50:28 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 30400 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 13:50:28 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 13:50:28 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 13:50:35 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 13:50:39 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 11.046 seconds (process running for 301.977)
+2024-12-09 13:50:49 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 30400 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 13:50:49 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 13:50:49 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:03:06 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 22556 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:03:06 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:03:06 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:03:40 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:03:47 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 43.856 seconds (process running for 48.599)
+2024-12-09 14:04:36 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 22556 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:04:36 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:04:36 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:04:42 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:04:45 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 8.818 seconds (process running for 106.222)
+2024-12-09 14:04:47 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 22556 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:04:47 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:04:47 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:04:51 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:04:53 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 6.512 seconds (process running for 114.501)
+2024-12-09 14:08:34 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 22556 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:08:34 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:08:34 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:08:40 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions': Lookup method resolution failed
+2024-12-09 14:08:40 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at edu.ifrn.tsi.sgpt.SgptApplication.main(SgptApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [edu.ifrn.tsi.sgpt.infra.TratarExceptions] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@10bc7bbe]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ResourceNotFoundException
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ResourceNotFoundException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+2024-12-09 14:08:42 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 22556 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:08:42 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:08:42 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:08:49 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions': Lookup method resolution failed
+2024-12-09 14:08:50 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at edu.ifrn.tsi.sgpt.SgptApplication.main(SgptApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [edu.ifrn.tsi.sgpt.infra.TratarExceptions] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@14f207ab]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ResourceNotFoundException
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ResourceNotFoundException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+2024-12-09 14:08:54 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 22556 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:08:54 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:08:54 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:08:58 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions': Lookup method resolution failed
+2024-12-09 14:08:58 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at edu.ifrn.tsi.sgpt.SgptApplication.main(SgptApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [edu.ifrn.tsi.sgpt.infra.TratarExceptions] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7d84caf9]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ResourceNotFoundException
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ResourceNotFoundException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 30 common frames omitted
+2024-12-09 14:17:34 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:17:34 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:17:34 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:18:15 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:18:24 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 53.274 seconds (process running for 59.743)
+2024-12-09 14:20:10 [http-nio-8080-exec-7] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-09 14:20:50 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Unable to find edu.ifrn.tsi.sgpt.domain.projeto.Projeto with id 1000]
+2024-12-09 14:21:34 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:21:34 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:21:34 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:21:42 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:21:47 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 13.368 seconds (process running for 262.742)
+2024-12-09 14:21:51 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:21:51 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:21:51 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:22:01 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:22:05 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 14.818 seconds (process running for 280.619)
+2024-12-09 14:22:08 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:22:08 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:22:08 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:22:18 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:22:22 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 14.336 seconds (process running for 297.427)
+2024-12-09 14:22:24 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:22:24 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:22:24 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:22:31 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:22:33 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 9.231 seconds (process running for 309.146)
+2024-12-09 14:22:45 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:22:45 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:22:45 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:22:52 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions' defined in file [C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes\edu\ifrn\tsi\sgpt\infra\TratarExceptions.class]: Failed to instantiate [edu.ifrn.tsi.sgpt.infra.TratarExceptions]: Constructor threw exception
+2024-12-09 14:22:53 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tratarExceptions' defined in file [C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes\edu\ifrn\tsi\sgpt\infra\TratarExceptions.class]: Failed to instantiate [edu.ifrn.tsi.sgpt.infra.TratarExceptions]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at edu.ifrn.tsi.sgpt.SgptApplication.main(SgptApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [edu.ifrn.tsi.sgpt.infra.TratarExceptions]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:94)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1331)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Unexpected end of comment
+
+	at edu.ifrn.tsi.sgpt.infra.TratarExceptions.<init>(TratarExceptions.java:13)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:195)
+	... 24 common frames omitted
+2024-12-09 14:22:55 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:22:55 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:22:55 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:23:00 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:23:04 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 9.06 seconds (process running for 339.195)
+2024-12-09 14:23:26 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Unable to find edu.ifrn.tsi.sgpt.domain.projeto.Projeto with id 1000]
+2024-12-09 14:24:24 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:24:24 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:24:24 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:24:30 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:24:34 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 9.765 seconds (process running for 429.192)
+2024-12-09 14:25:13 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 24380 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:25:13 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:25:13 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:39:01 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 13352 (C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\Área de Trabalho\sgpt-backend)
+2024-12-09 14:39:01 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-12-09 14:39:01 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-09 14:39:36 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 14:39:43 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 43.416 seconds (process running for 46.061)
+2024-12-09 14:40:04 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.net.URI> edu.ifrn.tsi.sgpt.controller.ProjetoController.cadastrarProjeto(edu.ifrn.tsi.sgpt.domain.projeto.Projeto,org.springframework.web.util.UriComponentsBuilder): [Field error in object 'projeto' on field 'nome': rejected value [ ]; codes [NotBlank.projeto.nome,NotBlank.nome,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [projeto.nome,nome]; arguments []; default message [nome]]; default message [O nome do projeto é obrigatório]] ]
