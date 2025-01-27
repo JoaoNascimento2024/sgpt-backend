@@ -1,5 +1,10 @@
+-- Criando a sequência
+CREATE SEQUENCE usuario_seq START WITH 1 INCREMENT BY 1;
+-- Criando a sequência
+CREATE SEQUENCE permissao_seq START WITH 1 INCREMENT BY 1;
+
 create table usuario (
-    id serial not null primary key,
+    id bigint DEFAULT nextval('usuario_seq') PRIMARY KEY,
     nome varchar(255) not null,
     email varchar(255) not null,
     senha varchar(255) not null
@@ -9,7 +14,7 @@ ALTER TABLE usuario
 ADD CONSTRAINT usuario_constraint UNIQUE (email);
 
 create table permissao (
-    id serial not null primary key,
+    id bigint DEFAULT nextval('permissao_seq') PRIMARY KEY,
     nome varchar(255) not null
 );
 
@@ -17,9 +22,9 @@ ALTER TABLE permissao
 ADD CONSTRAINT permissao_constraint UNIQUE (nome);
 
 create table usuario_permissao (
-    id serial not null primary key,
-    usuario_id integer not null,
-    permissao_id integer not null,
+    id bigserial not null primary key,
+    usuario_id bigint not null,
+    permissao_id bigint not null,
     foreign key (usuario_id) references usuario(id),
     foreign key (permissao_id) references permissao(id)
 );
