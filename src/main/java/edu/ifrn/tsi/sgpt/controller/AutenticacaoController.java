@@ -21,6 +21,9 @@ public class AutenticacaoController {
   @PostMapping 
   public ResponseEntity<Object> efetuarLogin(@RequestBody DadosAutenticacao dados){
     var dadosAutenticacao = new UsernamePasswordAuthenticationToken(dados.email(), dados.senha());
+    return ResponseEntity.ok("Autenticado");
   }
+
+  
 
 }
