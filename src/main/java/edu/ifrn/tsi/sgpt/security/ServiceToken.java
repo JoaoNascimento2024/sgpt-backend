@@ -19,12 +19,12 @@ public class ServiceToken {
   @Value("${api.security.jwt.secret}")
   private String secret;
 
-  public String gerarToken(Usuario usuario){
+  public String gerarToken(String email){
     try {
       Algorithm algorithm = Algorithm.HMAC256(secret);
       String token = JWT.create()
-          .withIssuer("auth0").withSubject(usuario.getEmail())
-          .withClaim("id", usuario.getId().toString())
+          .withIssuer("auth0").withSubject(email)
+          //.withClaim("id", usuario.getId().toString())
           .withExpiresAt(gerarDataExpiracao())
           .sign(algorithm);
           return token;

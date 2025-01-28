@@ -1,0 +1,19 @@
+2025-01-27 14:06:44 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 20260 (C:\Users\joaon\OneDrive\햞ea de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\햞ea de Trabalho\sgpt-backend)
+2025-01-27 14:06:44 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-27 14:06:44 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-27 14:06:58 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-27 14:07:01 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 18.196 seconds (process running for 20.221)
+2025-01-27 14:09:31 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 20800 (C:\Users\joaon\OneDrive\햞ea de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\햞ea de Trabalho\sgpt-backend)
+2025-01-27 14:09:31 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-27 14:09:31 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-27 14:09:45 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-27 14:09:48 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 17.783 seconds (process running for 18.978)
+2025-01-27 14:09:53 [http-nio-8080-exec-1] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-01-27 14:14:07 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Starting SgptApplication using Java 17.0.8 with PID 20800 (C:\Users\joaon\OneDrive\햞ea de Trabalho\sgpt-backend\target\classes started by joaon in C:\Users\joaon\OneDrive\햞ea de Trabalho\sgpt-backend)
+2025-01-27 14:14:07 [restartedMain] DEBUG edu.ifrn.tsi.sgpt.SgptApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-01-27 14:14:07 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-27 14:14:09 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-27 14:14:10 [restartedMain] INFO  edu.ifrn.tsi.sgpt.SgptApplication - Started SgptApplication in 3.328 seconds (process running for 280.81)
