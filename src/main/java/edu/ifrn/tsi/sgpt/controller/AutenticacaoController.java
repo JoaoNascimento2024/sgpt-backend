@@ -8,7 +8,9 @@ import edu.ifrn.tsi.sgpt.domain.usuario.Usuario;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -22,15 +24,20 @@ public class AutenticacaoController {
   @Autowired
   private ServiceToken serviceToken;
 
-  @PostMapping 
-  public ResponseEntity<Object> efetuarLogin(@RequestBody DadosAutenticacao dados){
+  @Autowired
+  private AuthenticationManager authenticationManager;
+
+  @PostMapping
+  public ResponseEntity<Object> efetuarLogin(@RequestBody DadosAutenticacao dados) {
     var dadosAutenticacao = new UsernamePasswordAuthenticationToken(dados.email(), dados.senha());
-    //System.out.println(dadosAutenticacao.getPrincipal());
-    var tokenJWT = serviceToken.gerarToken(dadosAutenticacao.getPrincipal().toString());
-    //System.out.println(tokenJWT);
+
+    // Autentica o usuário com AuthenticationManager
+    Authentication authentication = authenticationManager.authenticate(dadosAutenticacao);
+
+    // Gera o token JWT apenas se a autenticação for bem-sucedida
+    var tokenJWT = serviceToken.gerarToken(authentication.getName());
+
     return ResponseEntity.ok(new DadosTokenJWT(tokenJWT));
   }
-
-
 
 }

@@ -1,0 +1,1 @@
+insert into usuario_permissao (usuario_id, permissao_id) values (1,1);
