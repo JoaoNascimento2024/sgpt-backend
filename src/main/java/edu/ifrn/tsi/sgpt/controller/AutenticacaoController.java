@@ -4,7 +4,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import edu.ifrn.tsi.sgpt.domain.usuario.DadosAutenticacao;
 import edu.ifrn.tsi.sgpt.domain.usuario.DadosTokenJWT;
-import edu.ifrn.tsi.sgpt.domain.usuario.Usuario;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

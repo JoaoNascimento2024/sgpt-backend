@@ -3,7 +3,6 @@ package edu.ifrn.tsi.sgpt.domain.permissao;
 import java.util.Set;
 import edu.ifrn.tsi.sgpt.domain.usuario.Usuario;
 import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
